@@ -1,6 +1,8 @@
 # Blood-Bank-Management-System
 The Blood Bank Management System is a comprehensive MERN stack application designed to streamline the process of blood donation and distribution. This system provides a user-friendly interface for donors, hospitals, and organizations, ensuring efficient management and accessibility of blood resources.
 
+[Live-Link]( https://blood-bank-management-system-ten.vercel.app) 
+
 # Key Features:
 (1) User Authentication:
 
