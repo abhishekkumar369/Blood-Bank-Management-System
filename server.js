@@ -33,7 +33,7 @@ app.use(express.static(path.join(__dirname,"./client/build")));
 
 // static routes
 app.get('*',function(req,res){
-    re.sendFile(path.join(__dirname,"./client/build/index.html"));
+    res.sendFile(path.join(__dirname,"./client/build/index.html"));
 });
 
 
