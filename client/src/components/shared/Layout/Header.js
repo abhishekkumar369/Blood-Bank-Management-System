@@ -29,11 +29,11 @@ const Header = () => {
                 <span className="badge bg-secondary">{user?.role}</span>
               </p>
             </li>
-            {location.pathname === "/" ||
+            {(location.pathname === "/" ||
             location.pathname === "/admin" ||
             location.pathname === "/donar" ||
             location.pathname === "/hospital" ||
-            location.pathname === "/orgnisation" ? (
+            location.pathname === "/orgnisation") ? (
               <li className="nav-item mx-3">
                 <Link to="/analytics" className="nav-link">
                   Analytics
